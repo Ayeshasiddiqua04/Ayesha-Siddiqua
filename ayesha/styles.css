@@ -1,0 +1,54 @@
+body {
+    /* Background color */
+    background-color: rgba(255, 255, 255, 0.9);
+    
+    /* Background image */
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.header {
+    text-align: center;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+}
+
+.tagline-container {
+    background-color: blue; /* Blue background */
+    padding: 20px; /* Padding for spacing */
+    border-radius: 5px; /* Rounded corners */
+    margin-top: 10px; /* Space above the tagline */
+}
+
+.tagline {
+    font-size: 24px;
+    color: silver; /* Change text color to white for contrast */
+    margin: 0; /* Remove default margin */
+    font-weight: 400; /* Adjust weight for style */
+}
+
+.start-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.start-button:hover {
+    background-color: #0056b3;
+}

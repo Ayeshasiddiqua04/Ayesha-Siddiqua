@@ -1,0 +1,20 @@
+body {
+    /* Background color */
+    background-color: rgba(255, 255, 255, 0.9);
+    
+    /* Background image */
+    background-image: url("pic.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+}
+h1{
+   font-size:3em;
+}
+p{
+   font-size:2em;
+}
